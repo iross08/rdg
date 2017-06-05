@@ -1,0 +1,168 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 03-Jun-2017, 22:20:48
+    Author     : i Rashadul
+*/
+.HeaderLogo {
+    width: 100%;
+    text-align: center;
+}
+
+#footer hr
+{
+  width: 100%;
+}
+#footer
+{
+  font-size: 80%;
+  text-align: right;
+}
+
+/* bottom nav */
+
+.bottom {
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  font-size : 90%;
+  color : #999;
+}
+
+ul.bottom {
+  list-style-type : none;
+  padding : 0em;
+  margin : 0;
+  margin-top : 3em;
+  text-align : center;
+}
+
+.bottom li {
+  display : inline;
+  margin : 0.1em 0.1em;
+  padding : 0.0em;
+}
+
+.bottom a {
+  color : #999;
+  text-decoration: none;
+}
+
+.bottom a:hover {
+  /* color : #ffcc33; */ 
+  color : #555
+}
+
+/* bottom */
+
+.about {
+  color : #999;
+  font-family : Helvetica, Arial, sans-serif;
+  text-align : center;
+  font-size : 90%;
+}
+
+div.about {
+  margin-top : 1em;
+}
+
+/* Style the tab buttons */
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+}
+
+/* Change background color of buttons on hover */
+.tablink:hover {
+    background-color: #777;
+}
+
+/* Set default styles for tab content */
+.tabcontent {
+    color: black;
+    display: none;
+    padding: 50px;
+    text-align: center;
+}
+
+/* Style each tab content individually */
+#menu1 {background-color:white;}
+#menu2 {background-color:white;}
+#menu3 {background-color:white;}
+#menu4 {background-color:white;}
+#menu5 {background-color:white;}
+#menu6 {background-color:white;}
+#menu7 {background-color:white;}
+#menu8 {background-color:white;}
+
+.content {
+	background-color: #404040;
+	width: 550px;
+	margin: 0 auto;
+	padding: 20px 10px;
+	overflow: hidden;
+	border-bottom-left-radius: 6px;
+        border-bottom-right-radius: 6px;
+}
+
+.photo {
+	border-radius: 6px;
+	border: 1px solid #ccc;
+	width: 250px;
+	height: 300px;
+	margin-top: 10px;
+	margin-left: 10px;
+	float: left;
+	overflow: hidden;
+	position: relative;
+}
+
+.photo-name {
+  position: absolute;
+  width: 100%;
+  bottom: 30px;
+  text-align: center;
+  color: white;
+  background-color: red;
+}
+
+.photo-role {
+  position: absolute;
+  width: 100%;
+  bottom: 5px;
+  text-align: center;
+  color: white;
+  background-color: red;
+}
+
+.icon-bar {
+    width: 100%; /* Full-width */
+    background-color: #555; /* Dark-grey background */
+    overflow: auto; /* Overflow due to float */
+}
+
+.icon-bar a {
+    float: left; /* Float links side by side */
+    text-align: center; /* Center-align text */
+    width: 20%; /* Equal width (5 icons with 20% width each = 100%)
+    padding: 12px 0; /* Some top and bottom padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: white; /* White text color */
+    font-size: 36px; /* Increased font size */
+}
+
+.icon-bar a:hover {
+    background-color: #1C5BA0; /* Add a hover color */
+}
+
+.active {
+    background-color: #4CAF50; /* Add an active/current color */
+}
